@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,58,1) 41%, rgba(255,0,224,1) 100%);
+}
+
+header{
+    width: 100%;
+}
+
+#navbar{
+    width: 75%;
+    margin: auto;
+    padding: 15px 9px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+#left h2{
+    font-size: 35px;
+    color: #fff;
+}
+
+#right ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+#right ul li{
+    font-size: 18px;
+    color: cornsilk;
+}
+
+
+
+#about{
+    /* border: 3px solid green; */
+    /* margin-top: 20000px; */
+    width: 80%;
+    margin: 50px auto 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+#content{
+    width: 50%;
+    /* border: 2px solid blue; */
+    margin: auto;
+}
+
+#content #title{
+    /* border: 2px solid aqua; */
+    padding: 15px 0;
+    text-align: center;
+}
+#content h3{
+    font-size: 45px;
+    margin-bottom: 8px;
+    color: bisque;
+}
+#content h1{
+    font-size: 65px;
+    color: #fff;
+}
+
+#content p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;    
+}
+#content p:nth-child(1){
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#para {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#image{
+    width: 50%;
+    margin-top: 60px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+}
+#image img{
+    width: 290px;
+    height: 290px;
+    object-fit: contain;
+    border: 2px solid;
+    border-radius: 8%;
+    /* height: 100px;    */
+}
+
+#skills{
+    margin-top: 100px;
+}
+
+#skills-heading{
+    text-align: center;
+}
+
+#skills-heading h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+#skills-heading p{
+ font-size: 20px;   
+ color: whitesmoke;
+}
+
+#skills-container{
+    width: 80%;
+    /* background-color: #000000; */
+    padding: 25px 0;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+#content-container{
+    border: 1px solid #999999;
+    padding: 10px 5px;
+    border-radius: 8px;
+    height: 250px;
+    width: 100%;
+    margin: auto;
+    max-width: 26.5%;
+    text-align: center;
+}
+
+#content-container #skills-img{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+#content-container img{
+    width: 40px;
+    margin-bottom: 25px;
+    margin: auto;
+
+}
+
+#content-container h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+#contact-body{
+    display: flex;
+    
+}
+
+#contact-me{
+    width: 80%;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 15px;
+    /* backdrop-filter: blur(25px); */
+    margin-bottom: 100px;
+}
+
+
+#contact-me #cmheading{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+#contact-me #cmheading h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+#contact-body{
+    width: 100%;
+}
+#contact-body #contact-left{
+    gap: 40px;
+    /* border: 2px solid green; */
+    padding: 15px 0 0 17px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin: auto; */
+    /* text-align: center; */
+    margin-left: 170px;
+}
+
+#contact-left{
+    color: #fff;
+}
+#contact-right{
+    width: 50%;
+    /* border: 2px solid blue; */
+    padding: 15px 15px;
+    /* display: flex; */
+    /* justify-content: end; */
+}
+#contact-right form{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    /* align-items: end; */
+    width: 100%;
+}
+#contact-right form label{
+    margin-bottom: 7px;
+}
+
+#contact-right form input{
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    width: 100%;
+    outline: none;
+}
+
+
+#contact-right form textarea{
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+#contact-right form button{
+    padding: 17px 0;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    background-color: black;
+    color: #fff;
+
+}
+
